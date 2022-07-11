@@ -31,7 +31,7 @@ We present the analysis in the following steps: 1) the data modification on the 
 ![Alt text](/Resources/check1.png "imagen11")
 
 #### This chart show the checkout times by gender. As We can see, Citi Bike have more males users than females.
-![Alt text](/Resources/check2.png "imagen12")
+![Alt text](/Resources/cinco.png "imagen12")
 
 #### The heat map below shows Trips by Weekday.
 ![Alt text](/Resources/heat1.png "imagen13")
