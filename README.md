@@ -9,11 +9,13 @@ We present the results in the following steps: the data modification on the data
 
 The first step of this project was to adapt the dataset. In this case, We needed to convert the Tripduration column to a DateTime format with the help of Python and Pandas, as we can see in the following screenshots:
 
-![Alt text](/Resources/tripduration1.png "imagen1")
+![Alt text](/Resources/uno.png "imagen1")
 
-![Alt text](/Resources/tripduration2.png "imagen2")
+![Alt text](/Resources/dos.png "imagen2")
 
-![Alt text](/Resources/tripduration3.png "imagen3")
+![Alt text](/Resources/tres.png "imagen3")
+
+![Alt text](/Resources/cuatro.png "imagen4")
 
 The next step was to create the visualizations that the challenge requested. 
 
@@ -31,6 +33,10 @@ The next step was to create the visualizations that the challenge requested.
 
 ![Alt text](/Resources/extra.png "imagen16")
 
+![Alt text](/Resources/extra2.png "imagen17")
+
+![Alt text](/Resources/extra3.png "imagen18")
+
 ## Summary 
 
 The data and visualization analysis allows us to conclude that the majority of Citi Bike users in New York City are male subscribers. Women use the service less and are often casual customers, not subscribers.
@@ -45,7 +51,7 @@ In this case, it would be worth analyzing why the service has fewer female subsc
 Citi Bike's services in New York are successful because it covers the transportation needs of a densely populated urban area, however, it would be important to study whether it would be viable to replicate the business in Des Moise, Iowa. In other words, we need to study various aspects of that city, such as streets, routes, traffic congestion, population density, public transport, cycle paths, and tourist sites.
 
 ## Tableau Story Link:
-Click [Here](https://cielocris.github.io/plotly_deployment/) to visit the complete analysis.
+Click [Here](https://public.tableau.com/app/profile/cielo.mejia/viz/Challenge_Bikesharing/NYCCitiBikeAnalysis?publish=yes) to visit the complete analysis.
 
 ## Additional visualizations
 
