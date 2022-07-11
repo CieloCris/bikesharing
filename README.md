@@ -1,13 +1,15 @@
 # Bikesharing Analysis
 
 ## Overview
-In this module, our goal was to analyze an NYC Citi Bike dataset in order to decide if it is possible to replicate a similar cycling project in Des Moines, Iowa. In other words, our purpose was to create visualizations based on bike-sharing data to determine if We can replicate the business proposal in another city.
+In this module, our goal is to analyze an NYC Citi Bike dataset in order to decide if it is possible to replicate a similar cycling project in Des Moines, Iowa. In other words, our purpose is to create visualizations based on bike-sharing data to determine if We can replicate the business proposal in another city.
+
 To achieve our goal, we use **Tableau Public, in addition to Python, Jupyter Notebook, and Pandas**.
 
-Results
-We present the results in the following steps: the data modification on the dataset, the visualizations, and the link to Tableau's story.
+## Results
 
-The first step of this project was to adapt the dataset. In this case, We needed to convert the Tripduration column to a DateTime format with the help of Python and Pandas, as we can see in the following screenshots:
+We present the analysis in the following steps: 1) the data modification on the dataset, 2)the visualizations, and 3)the link to Tableau's story and the summary.
+
+### 1) The first step of this project was to adapt the dataset. In this case, We needed to convert the Tripduration column to a DateTime format with the help of Python and Pandas, as we can see in the following screenshots:
 
 ![Alt text](/Resources/uno.png "imagen1")
 
@@ -17,24 +19,39 @@ The first step of this project was to adapt the dataset. In this case, We needed
 
 ![Alt text](/Resources/cuatro.png "imagen4")
 
-The next step was to create the visualizations that the challenge requested. 
+### 2)The next step was to create the visualizations that the challenge requested: 
 
+#### The following image explains the Citi Bike experience and shows purpose of our project.
+![Alt text](/Resources/portada.png "imagen100")
+
+#### Below, a screenshot shows general information of our challenge. In August 2019, 2,344,224 persons used the Citi Bike service. Most of them were male and subscripters.
 ![Alt text](/Resources/general.png "imagen10")
 
+#### In the following chart, we present the checkout times by user and we can conclude that most of the trips takes than 20 minutes.
 ![Alt text](/Resources/check1.png "imagen11")
 
-![Alt text](/Resources/check2png "imagen12")
+#### This chart show the checkout times by gender. As We can see, Citi Bike have more males users than females.
+![Alt text](/Resources/check2.png "imagen12")
 
+#### The heat map below shows Trips by Weekday.
 ![Alt text](/Resources/heat1.png "imagen13")
+From this first heat map, we can deduce that the Citi Bike service is used more for commuting to work during weekdays, that is, from 7:00 to 9:00 AM, and from 5:00 to 7:00 PM. The day with the most users riding the bikes is Thursday.
 
+#### Heat map with Trips by Gender (Weekday per Hour)
 ![Alt text](/Resources/heat2.png "imagen14")
+The second heatmap shows the trips per week according to the user's gender. From the map, we can conclude that men use bikes more when traveling to the office. We can also see that people whose gender is unknown generally used the service over the weekend.
 
+#### Heat Map with User-type Trips by Gender by weekday
 ![Alt text](/Resources/heat3.png "imagen15")
+We can conclude that male subscribers are the largest group using Citi Bike in NYC. In order to understand the bike service's trends by gender, it's important to study more months and characteristics.![Alt text](/Resources/extra.png "imagen16")
 
-![Alt text](/Resources/extra.png "imagen16")
+#### Top Starting Locations and Top Ending Locations
+![Alt text](/Resources/extra.png "imagen17")
 
-![Alt text](/Resources/extra2.png "imagen17")
+#### Start Location by User-type
+![Alt text](/Resources/extra2.png "imagen18")
 
+#### Bike Utilitation
 ![Alt text](/Resources/extra3.png "imagen18")
 
 ## Summary 
